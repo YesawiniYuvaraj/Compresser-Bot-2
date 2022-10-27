@@ -91,7 +91,7 @@ async def _(e):
 @bot.on(events.NewMessage(pattern="/usage"))
 async def _(e):
     if str(e.sender_id) not in OWNER:
-        if e.sender_id != DEV:
+        if e.sender_id != Yuvi1poke_lover:
             return
     total, used, free = shutil.disk_usage(".")
     cpuUsage = psutil.cpu_percent()
@@ -173,7 +173,7 @@ async def something():
                     "`Compressing..`",
                     buttons=[
                         [Button.inline("STATS", data=f"stats{wah}")],
-                        [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
+                        [Button.inline("❌❌CANCEL PROCESS❌❌", data=f"skip{wah}")],
                     ],
                 )
                 cmd = FFMPEG.format(dl, out)
@@ -184,7 +184,7 @@ async def something():
                 er = stderr.decode()
                 try:
                     if er:
-                        await e.edit(str(er) + "\n\n**ERROR** Contact @danish_00")
+                        await e.edit(str(er) + "\n\n**ERROR** Contact @Yuvi1poke_lover")
                         QUEUE.pop(list(QUEUE.keys())[0])
                         os.remove(dl)
                         os.remove(out)
