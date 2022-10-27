@@ -1,5 +1,5 @@
 #    This file is part of the CompressorQueue distribution.
-#    Copyright (c) 2021 Danish_00
+#    Copyright (c) 2021 Yuvi1poke_lover 
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -11,7 +11,7 @@
 #    General Public License for more details.
 #
 # License can be found in <
-# https://github.com/1Danish-00/CompressorQueue/blob/main/License> .
+# https://github.com/YesawiniYuvaraj/VPS-DEPLOY-COMPRESSER-BOT-/blob/main/License> .
 
 from .worker import *
 
@@ -29,12 +29,12 @@ async def up(event):
 
 async def start(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too Made By @Yuvi1poke_lover.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("SOURCE CODE", url="https://github.com/YesawiniYuvaraj/VPS-DEPLOY-COMPRESSER-BOT-"),
+                Button.url("DEVELOPER", url="t.me/Yuvi1poke_lover"),
             ],
         ],
     )
@@ -55,12 +55,12 @@ async def ihelp(event):
 
 async def beck(event):
     await event.edit(
-        f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too Made By @Yuvi1poke_lover.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("SOURCE CODE", url="https://github.com/YesawiniYuvaraj/VPS-DEPLOY-COMPRESSER-BOT-"),
+                Button.url("DEVELOPER", url="t.me/Yuvi1poke_lover"),
             ],
         ],
     )
