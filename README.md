@@ -12,4 +12,4 @@
 
 `FFMPEG` : Put Your FFMPEG Code with "{}" as input and output. (Eg. `ffmpeg -i "{}" -preset veryfast -vcodec libx265 -crf 27 "{}"`)
 
-- [Main Source](https://github.com/1Danish-00/CompressorBot)
+- [Main Source get From here] (http://t.me/Yuvi1poke_lover)
