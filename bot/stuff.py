@@ -11,7 +11,7 @@
 #    General Public License for more details.
 #
 # License can be found in <
-# https://github.com/YesawiniYuvaraj/VPS-DEPLOY-COMPRESSER-BOT-/blob/main/License> .
+# https://github.com/YesawiniYuvaraj/Compresser-Bot-2/blob/main/License> .
 
 from .worker import *
 
@@ -33,7 +33,7 @@ async def start(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="https://github.com/YesawiniYuvaraj/VPS-DEPLOY-COMPRESSER-BOT-"),
+                Button.url("SOURCE CODE", url="https://github.com/YesawiniYuvaraj/Compresser-Bot-2"),
                 Button.url("DEVELOPER", url="t.me/Yuvi1poke_lover"),
             ],
         ],
@@ -59,7 +59,7 @@ async def beck(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="https://github.com/YesawiniYuvaraj/VPS-DEPLOY-COMPRESSER-BOT-"),
+                Button.url("SOURCE CODE", url="https://github.com/YesawiniYuvaraj/Compresser-Bot-2"),
                 Button.url("DEVELOPER", url="t.me/Yuvi1poke_lover"),
             ],
         ],
