@@ -16,17 +16,14 @@
 from decouple import config
 
 try:
-    APP_ID = 18990697("APP_ID", default=18990697, cast=int)
-    API_HASH = config("API_HASH", default="=f4815b9a16cb03c2f5eabe8db1cb0903")
+    APP_ID = 18990697
+    API_HASH = f4815b9a16cb03c2f5eabe8db1cb0903")
     BOT_TOKEN = 5603895273:AAH_OWCXHDvEk4pIVZFqqDTIMnqJ37HP5O0
     DEV = 1479816157
-    OWNER = 5261482689("OWNER")
-    FFMPEG = config(
-        "FFMPEG",
-        default='ffmpeg -i "{}" -preset veryfast -vcodec libx265 -crf 27 "{}"',
+    OWNER = 5261482689
+    FFMFFMPEG-i "{}" -preset veryfast -vcodec libx265 -crf 27 "{}"',
     )
-    THUMB = config(
-        "THUMBNAIL", default="https://te.legra.ph/file/f9f4413675c8ea31e7b1b.jpg"
+    THUMB = https://te.legra.ph/file/f9f4413675c8ea31e7b1b.jpg"
     )
 except Exception as e:
     print("Environment vars Missing")
